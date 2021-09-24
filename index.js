@@ -30,7 +30,7 @@ client.on("message", async message => {
         message.channel.send(arr[Math.floor(arr.length * Math.random())])
     }
     else if(message.content.startsWith(`${prefix}thomas`)) {
-        message.channel.send('man good one i made this')
+        message.channel.send('man good one i made this.')
     }
     else if (message.content.startsWith(`${prefix}play`)) {
         execute(message, serverQueue);
